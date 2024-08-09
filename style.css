@@ -33,6 +33,26 @@ body{
 .main{
 
 }
+.main p{
+    color: white;
+}
 .main img{
     border-radius: 15px;
+}
+.img-txt1 , .img-txt2{
+    width: 100%;
+    display: flex;
+}
+.img-txt1 p{
+    margin-top: 100px;
+}
+.img-txt1 img{
+    margin: 20px;
+}
+.img-txt2 p{
+    margin-top: 100px;
+}
+.img-txt2 img{
+    
+    margin: 20px;
 }
