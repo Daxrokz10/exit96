@@ -19,6 +19,7 @@ header{
 
 }
 header img{
+    margin-top: 20px;
     position: absolute;
     left: 0;
 }
@@ -74,9 +75,16 @@ body{
 }
 .listing{
     display: flex;
+    margin-top: 5%;
 }
 .listing p{
     color: white;
     font-size: 25px;
-}
+    margin-left: 20%;
+    margin-top: 10%;
 
+}
+.hut-img{
+    margin-left: 10%;
+    
+}
