@@ -22,6 +22,14 @@ header img{
     position: absolute;
     left: 0;
 }
+.visit{
+    text-decoration: none;
+    margin-right: -30%;
+    color: black;
+}
+nav{
+    transform: translateX(15%);
+}
 nav a{
     margin: 10px;
     text-decoration: none;
@@ -35,9 +43,6 @@ body{
     background-image: url(images/views/main-bg-image.jpg);
     background-size:cover;
     background-attachment: fixed;
-
-}
-.main{
 
 }
 .main p{
@@ -60,6 +65,18 @@ body{
     margin-top: 100px;
 }
 .img-txt2 img{
-    
     margin: 20px;
 }
+.wwo , .beganp{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.listing{
+    display: flex;
+}
+.listing p{
+    color: white;
+    font-size: 25px;
+}
+
