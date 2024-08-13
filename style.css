@@ -73,18 +73,59 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-.listing{
-    display: flex;
-    margin-top: 5%;
-}
-.listing p{
-    color: white;
-    font-size: 25px;
-    margin-left: 20%;
-    margin-top: 10%;
 
+
+.ourreccomendations {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* Adjust height as needed */
 }
-.hut-img{
-    margin-left: 10%;
-    
+
+.ourreccomendations section {
+    position: absolute; /* Absolute positioning for overlap */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.ourreccomendations section img {
+    width: 250px; /* Adjust size as needed */
+    border-radius: 10px 10px 10px 10px;
+    height: auto;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    z-index: 1; /* Ensure images stay on top */
+}
+
+.ourreccomendations section:nth-child(1) {
+    transform: rotate(-10deg) translateX(-50px);
+}
+
+.ourreccomendations section:nth-child(2) {
+    transform: rotate(-5deg) translateX(-25px);
+}
+
+.ourreccomendations section:nth-child(3) {
+    transform: rotate(5deg) translateX(25px);
+}
+
+.ourreccomendations section:nth-child(4) {
+    transform: rotate(10deg) translateX(50px);
+}
+
+.ourreccomendations:hover section:nth-child(1) {
+    transform: rotate(0deg) translateX(-370px);
+}
+
+.ourreccomendations:hover section:nth-child(2) {
+    transform: rotate(0deg) translateX(-110px);
+}
+
+.ourreccomendations:hover section:nth-child(3) {
+    transform: rotate(0deg) translateX(150px);
+}
+
+.ourreccomendations:hover section:nth-child(4) {
+    transform: rotate(0deg) translateX(410px);
 }
