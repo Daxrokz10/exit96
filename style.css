@@ -2,130 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Radio Canada Big", sans-serif;
-    font-optical-sizing: auto
 }
+
 header{
-    position:sticky;
-    top: 0;
-    display: flex;
-    flex-direction: row;
-    background-image:linear-gradient(45deg,#3CA55C,#B5AC49);
-    height: 14vh;
-    justify-content: space-evenly;
-    align-items: center;    
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    font-family: "Montserrat", serif;
+}
 
-}
-header img{
-    margin-top: 20px;
-    position: absolute;
-    left: 0;
-}
-.visit{
-    text-decoration: none;
-    margin-right: -30%;
-    color: black;
-}
-nav{
-    transform: translateX(15%);
-}
-nav a{
-    margin: 10px;
-    text-decoration: none;
-    color: black;
-    transition: 0.5s;
-}
-a:hover{
-    color:aqua ;
-}
-body{
-    background-image: url(images/views/main-bg-image.jpg);
-    background-size:cover;
-    background-attachment: fixed;
+/* HERO SECTION  */
 
-}
-.main p{
-    color: white;
-}
-.main img{
-    border-radius: 15px;
-}
-.img-txt1 , .img-txt2{
+.hero .hero-image{
+    background-image: url(./assets/images/hero-image.JPG);
+    height: 60vh;
     width: 100%;
-    display: flex;
-}
-.img-txt1 p{
-    margin-top: 100px;
-}
-.img-txt1 img{
-    margin: 20px;
-}
-.img-txt2 p{
-    margin-top: 100px;
-}
-.img-txt2 img{
-    margin: 20px;
-}
-.wwo , .beganp{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
-.ourreccomendations {
-    margin-top: 30px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 250px; /* Adjust height as needed */
+/* WHY SECTION */
+.why{
+    margin-top: 5%;
 }
-
-.ourreccomendations section {
-    position: absolute; /* Absolute positioning for overlap */
-    transition: transform 0.5s ease, opacity 0.5s ease;
-}
-
-.ourreccomendations section img {
-    width: 250px; /* Adjust size as needed */
-    border-radius: 10px 10px 10px 10px;
-    height: auto;
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    z-index: 1; /* Ensure images stay on top */
-}
-
-.ourreccomendations section:nth-child(1) {
-    transform: rotate(-10deg) translateX(-50px);
-}
-
-.ourreccomendations section:nth-child(2) {
-    transform: rotate(-5deg) translateX(-25px);
-}
-
-.ourreccomendations section:nth-child(3) {
-    transform: rotate(5deg) translateX(25px);
-}
-
-.ourreccomendations section:nth-child(4) {
-    transform: rotate(10deg) translateX(50px);
-}
-
-.ourreccomendations:hover section:nth-child(1) {
-    transform: rotate(0deg) translateX(-370px);
-}
-
-.ourreccomendations:hover section:nth-child(2) {
-    transform: rotate(0deg) translateX(-110px);
-}
-
-.ourreccomendations:hover section:nth-child(3) {
-    transform: rotate(0deg) translateX(150px);
-}
-
-.ourreccomendations:hover section:nth-child(4) {
-    transform: rotate(0deg) translateX(410px);
+.why p{
+    max-width: 40%;
 }
